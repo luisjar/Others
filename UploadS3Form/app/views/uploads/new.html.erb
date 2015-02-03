@@ -1,0 +1,6 @@
+<h1>Add a new Image</h1>
+<%= form_for @upload, :html => { :multipart => true } do |f| %>
+  
+  <%= f.file_field :image %>
+	<%= f.submit "Upload" %>  
+<% end %>
