@@ -15,7 +15,6 @@ class UploadsController < ApplicationController
   	@upload = Upload.create( upload_params )
 
   	if @upload.save
-  	  # render json: { message: "success" }, :status => 200
   	  redirect_to @upload
   	else
   	  #need to send an error header, otherwise Dropzone
