@@ -121,7 +121,7 @@
 		<% end %>
 
 
-19. Create a show.html.erb file under views folder and add the following code in order to see the uploaded image to S3.
+19. Create a show.html.erb file under views folder and add the following code in order to see the uploaded image to S3
 
 		<h1>Pictures</h1>
 		<%= image_tag @upload.image.url(:medium) %>
