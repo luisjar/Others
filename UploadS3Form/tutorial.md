@@ -8,8 +8,8 @@
 
 5. Under properties click on "permissions". Click on "add more permissions", under Grantee select Everyone, and select Upload/Delete, View Permissions and Edit Permissions. Save the bucket's permissions.
 
-		![Image of Bucket creation]
-		(https://github.com/luisjar/Others/blob/master/amazonS3.png)
+![Image of Bucket creation]
+(https://github.com/luisjar/Others/blob/master/amazonS3.png)
 
 6. Click on your account's name at the top right of the website. A dropdown menu displays and click over "Security and Credentials". Then click "continue to security credentials" on the pop up window.
 
