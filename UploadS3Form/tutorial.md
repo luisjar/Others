@@ -15,7 +15,7 @@
 
 7. Click on "Access Keys (Access Key ID and Secret Access Key). Create a new Access Key if you don't have one yet. Copy and save the access key and secret access key in a safe place. You are going to be able to see your secrete access key just once.
 
-8.Create your rails app. On your command line type: 
+8. Create your rails app. On your command line type: 
 
     $ rails new theNameOfYourAppHere --database=postgresql
 
