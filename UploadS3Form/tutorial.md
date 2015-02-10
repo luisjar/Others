@@ -163,8 +163,10 @@
 
 		S3_BUCKET=here goes the name of your bucket in Amazon S3
 
+24. Under the root folder, go to .gitignore file. At the bottom type .env. The .gitignore makes sure that that file does not get pushed to github or heroku. The files written there are ignored by git when you commit.
 
-24. Your image upload application should now be working and your pictures should be saved in Amazon S3. The method used to save and store the access key and secret access key is being handled by the "dotenv-rails" gem right now and this will only work for development purposes and under localhost. Do not commit and push these keys to github because they will notice that you are making a private key public.
+
+25. Your image upload application should now be working and your pictures should be saved in Amazon S3. The method used to save and store the access key and secret access key is being handled by the "dotenv-rails" gem right now and this will only work for development purposes and under localhost. Do not commit and push these keys to github because they will notice that you are making a private key public.
 
 
 
